@@ -22,7 +22,7 @@ FinStat-Analysis is a financial data analysis project aimed at understanding inc
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/yourusername/FinStat-Analysis.git
+   git clone https://github.com/HeminDhamelia/FinStat-Analysis.git
    ```
 2. Open `FinStat_Analysis.xlsx` in Excel or load it in Python using Pandas:
    ```python
@@ -30,33 +30,54 @@ FinStat-Analysis is a financial data analysis project aimed at understanding inc
    df = pd.read_excel("FinStat_Analysis.xlsx", sheet_name=None)
    ```
 
-## 📈 Dashboards
+## 📈 Dashboards & Analysis
 
 ### 1️⃣ Income Sources
 
-This dashboard provides a detailed breakdown of total income, including:
-
-- Achievement percentages.
-- Most valuable income sources.
-- Marketing strategies.
-- Operating profits.
-- Monthly and yearly income trends.
+- **Dynamic Web Chart**: Analyzes all income sources and their percentage, highlighting the highest-value source.
+- **Creative Doughnut Chart**: Displays the achieved percentage from the target.
+- **Dashboard Title & Description**: Provides clear insights.
+- **Total Income & Target Income**: Summarized financial goals.
+- **Line Chart**: Income trends by month.
+- **Income Sources Analysis**: Total counts and percentage per category.
+- **Average Monthly Income**: Financial overview.
+- **Bar Chart**: Monthly operating profits and total profit.
+- **Marketing Strategies Analysis**: Differentiates between B2B and other marketing approaches.
+- **Yearly Slicer Control**: Enables selection of financial data per year.
 
 ### 2️⃣ Geographically _(Coming Soon)_
 
-This dashboard will visualize income distribution and financial performance across different regions.
+- **Dynamic Map Chart**: Visualizes total profits by country.
+- **Profit Analysis by Country**: Highlights the most profitable regions.
+- **Taxation Breakdown**: Various tax types and their impact.
+- **Doughnut Chart**: Displays the percentage of profits achieved.
+- **Yearly Slicer Control**: Adjusts data for specific years.
+- **Design Elements**:
+  - Font: Avenir
+  - Color Palette:
+    - Dark Green: `#070E0A`
+    - Neon Blue: `#194AFE`
+    - Paua: `#252253`
+    - Medium Orchid: `#B349D1`
+    - Turquoise Blue: `#55D9FB`
 
 ### 3️⃣ Sales Processes _(Coming Soon)_
 
-This dashboard will highlight the various sales channels and their contribution to revenue.
+- **Sales Process Diagram**: Visualizes all sales stages and highlights the most frequent ones.
+- **Doughnut Chart**: Shows total sales and achieved target percentage.
+- **Sales by Point of Sale**: Analyzes where most sales occur.
+- **Refunded Orders Analysis**: Tracks total refunded orders.
+- **Orders Distribution**: Bar chart for sales by location.
 
 ### 4️⃣ Project Status _(Coming Soon)_
 
-This dashboard will track the progress of financial projects and performance over time.
+- **Workflow Report**: Tracks the status of projects in progress.
+- **Main KPIs Dashboard**: Displays critical project metrics.
+- **Live Data Updates**: Directly sourced from the dataset.
 
 ## 👥 Contributors
 
-- [Your Name](https://github.com/yourusername)
+- [Hemin Dhamelia](https://github.com/HeminDhamelia)
 
 ## 📌 Future Enhancements
 
